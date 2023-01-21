@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>To-Do List</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>To-Do List</h1>
+
+        <div id="add-item">
+            <input type="text" id="item-name" placeholder="Item name">
+            <input type="date" id="item-date" placeholder="Item date">
+            <select id="item-priority">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <button id="add-btn">Add Item</button>
+        </div>
+
+        <div id="todays-tasks">
+            <h2>Today's Tasks</h2>
+            <div id="todays-tasks-list"></div>
+        </div>
+
+        <div id="future-tasks">
+            <h2>Future Tasks</h2>
+            <div id="future-tasks-list"></div>
+        </div>
+
+        <div id="completed-tasks">
+            <h2>Completed Tasks</h2>
+            <div id="completed-tasks-list"></div>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>

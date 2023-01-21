@@ -1,0 +1,69 @@
+/* Styles for the entire application */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Styles for the "add item" section */
+#add-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#add-item input, #add-item select {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#add-item button {
+    padding: 10px 20px;
+    background-color: #0d1110;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+h1{
+    
+    display: flex;
+    text-align: center;
+}
+
+/* Styles for the todolist items */
+.item-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.item-card span:first-child {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.item-card button {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for due today tasks */
+.due-today {
+    background-color: #d9ffd9;
+}
+
+/* Styles for overdue tasks */
+.overdue {
+    border: 2px solid red;
+}
+
+/* Styles for completed tasks */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
